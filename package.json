@@ -1,0 +1,21 @@
+{
+  "name": "free-fire-bihar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free Fire Bihar - 2D runner game",
+  "scripts": {
+    "icons": "npx @capacitor/assets generate --android --iconBackgroundColor '#030d04' --iconBackgroundColorDark '#030d04'",
+    "sync": "npx cap sync android",
+    "debug": "cd android && ./gradlew assembleDebug",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "aab": "cd android && ./gradlew bundleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
