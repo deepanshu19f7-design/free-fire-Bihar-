@@ -1,0 +1,10 @@
+{
+  "appId": "com.freefirebihar.game",
+  "appName": "Free Fire Bihar",
+  "webDir": "www",
+  "backgroundColor": "#14102a",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}
